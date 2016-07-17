@@ -1,24 +1,8 @@
-# README
+Welcome to my portfolio site!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This site is designed using Ruby on Rails and the MVC design pattern.
 
-Things you may want to cover:
+If you have any questions, please feel free to reach out to me.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Thanks!
+Kristin
