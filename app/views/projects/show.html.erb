@@ -26,16 +26,16 @@
 					<div class="work-details">
 						<h3 class="work-details-title font-alt">Description</h3>
 						<ul>
-							<li class="font-inc"><strong>Client: </strong>Student Project at Flatiron School</li>
-							<li class="font-inc"><strong>Date: </strong>Spring 2016</li>
-							<li class="font-inc"><strong>Online: </strong><a href="<%= @project.url %>" target="_blank">click here</a></li>
+							<li class="font-inc"><strong>Client: </strong><%= @project.client %></li>
+							<li class="font-inc"><strong>Date: </strong><%= @project.completed %></li>
+							<li class="font-inc"><strong>Online: </strong><a href="<%= @project.url %>" target="_blank">view the application</a></li>
 						</ul>
 					</div>
 
 				</div>
 
 				<div class="col-sm-6">
-					<%= @project.description %>
+					<%=raw @project.description %>
 				</div>
 
 			</div>
