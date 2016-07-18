@@ -574,6 +574,13 @@ Navbar
 	color: #000;
 }
 
+.navbar-custom .navbar-brand img {
+	max-height: 35px;
+	margin-top: -5px;
+	margin-bottom: 15px;
+	width: auto;
+}
+
 .navbar-custom .nav li > a {
 	position: relative;
 	color: #000;
