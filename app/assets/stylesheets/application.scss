@@ -11,25 +11,57 @@
  * It is generally better to create a new file per style scope.
  *
 
- *= require bootstrap.min
- *= require simpletextrotator
- *= require font-awesome
- *= require font-awesome.min
- *= require et-line-font
- *= require magnific-popup
- *= require flexslider
- *= require animate
- *= require style
- *= require custom
- *= require bootstrap-theme
- *= require bootstrap-theme.min
- *= require linecons
- *= require slider
- *= require vertical
  *= require_self
  *= require_tree .
  */
 
 body {
   background-color: black;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.flex-container-nav {
+  list-style: none;
+  margin: 0;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  -webkit-flex-flow: row;
+  justify-content: flex-end;
+  z-index: 100;
+}
+
+.flex-container-nav a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: #fff;
+}
+
+@media all and (max-width: 800px) {
+  .flex-container-nav {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .flex-container-nav {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
+  .flex-container-nav a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
 }
